@@ -1,3 +1,4 @@
+# for addressAdder app
 from PyQt5 import QtWidgets,uic
 from configEdit_win import Ui_Dialog
 import json
