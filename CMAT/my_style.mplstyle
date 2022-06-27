@@ -1,0 +1,20 @@
+axes.titlesize : 18
+axes.labelsize : 16
+lines.linewidth : 4
+lines.markersize : 10
+xtick.labelsize : 14
+ytick.labelsize : 14
+
+legend.frameon: True
+legend.fontsize: 16
+legend.facecolor: aliceblue
+legend.edgecolor: b
+legend.framealpha: 1
+legend.numpoints: 1
+legend.labelspacing: .5
+
+axes.axisbelow : True
+axes.facecolor : whitesmoke
+axes.grid : True
+grid.color : w
+grid.linewidth : 1.5
