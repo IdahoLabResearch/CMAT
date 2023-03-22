@@ -6,9 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>989</width>
-    <height>867</height>
+    <width>876</width>
+    <height>408</height>
    </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+    <weight>50</weight>
+    <bold>false</bold>
+   </font>
   </property>
   <property name="windowTitle">
    <string>Process Modeling</string>
@@ -17,44 +24,98 @@
    <double>1.000000000000000</double>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);
-color: #3A5795;
-</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="1" column="0" rowspan="2">
-     <spacer name="verticalSpacer_2">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="1" column="2" rowspan="2">
-     <spacer name="verticalSpacer_3">
-      <property name="orientation">
-       <enum>Qt::Vertical</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>20</width>
-        <height>40</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
     <item row="1" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>118</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>138</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="run_btn">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Run</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="exit_btn">
+          <property name="minimumSize">
+           <size>
+            <width>100</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <property name="text">
+           <string>Exit</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
      <widget class="QFrame" name="frame_2">
       <property name="styleSheet">
-       <string notr="true">border-color: rgb(255, 255, 255);
-background-color: rgb(221, 239, 255);
-border-radius: 15px;</string>
+       <string notr="true"/>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -70,14 +131,12 @@ border-radius: 15px;</string>
            <property name="font">
             <font>
              <pointsize>10</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
+             <weight>50</weight>
+             <bold>false</bold>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(221, 239, 255);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>File location</string>
@@ -89,17 +148,15 @@ background-color: rgb(221, 239, 255);</string>
            <property name="font">
             <font>
              <pointsize>10</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
+             <weight>50</weight>
+             <bold>false</bold>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(221, 239, 255);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
-            <string>Selected file: </string>
+            <string>Selected file</string>
            </property>
           </widget>
          </item>
@@ -108,14 +165,12 @@ background-color: rgb(221, 239, 255);</string>
            <property name="font">
             <font>
              <pointsize>10</pointsize>
-             <weight>75</weight>
-             <bold>true</bold>
+             <weight>50</weight>
+             <bold>false</bold>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(221, 239, 255);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>Electricity cost ($/kWh)</string>
@@ -137,20 +192,14 @@ background-color: rgb(221, 239, 255);</string>
            <property name="font">
             <font>
              <family>Arial</family>
-             <pointsize>12</pointsize>
-             <weight>9</weight>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
              <italic>false</italic>
              <bold>false</bold>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(255, 255, 255);
-font: 75 12pt &quot;Arial&quot;;
-border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(255, 141, 2);
-border-radius: 5px;
-</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>Browse</string>
@@ -165,10 +214,7 @@ border-radius: 5px;
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">color: rgb(0, 0, 0);
-border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(221, 239, 255);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>  No file selected yet</string>
@@ -186,8 +232,7 @@ background-color: rgb(221, 239, 255);</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :1.5px solid;
-background-color: rgb(255, 255, 255);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>0.11</string>
@@ -202,28 +247,26 @@ background-color: rgb(255, 255, 255);</string>
        <item row="4" column="1">
         <layout class="QVBoxLayout" name="verticalLayout_4">
          <item>
-          <widget class="QSpinBox" name="spin_box_weeks">
+          <widget class="QDoubleSpinBox" name="spin_box_weeks">
            <property name="font">
             <font>
              <pointsize>10</pointsize>
             </font>
            </property>
-           <property name="mouseTracking">
-            <bool>true</bool>
-           </property>
            <property name="styleSheet">
-            <string notr="true">border :1.5px solid;
-background-color: rgb(255, 255, 255);
-font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            <string notr="true"/>
+           </property>
+           <property name="decimals">
+            <number>1</number>
            </property>
            <property name="minimum">
-            <number>1</number>
+            <double>0.100000000000000</double>
            </property>
            <property name="maximum">
-            <number>500</number>
+            <double>500.000000000000000</double>
            </property>
            <property name="value">
-            <number>1</number>
+            <double>1.000000000000000</double>
            </property>
           </widget>
          </item>
@@ -238,9 +281,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
             <bool>true</bool>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :1.5px solid;
-background-color: rgb(255, 255, 255);
-font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            <string notr="true"/>
            </property>
            <property name="minimum">
             <number>1</number>
@@ -264,9 +305,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
             <bool>true</bool>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :1.5px solid;
-background-color: rgb(255, 255, 255);
-font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            <string notr="true"/>
            </property>
            <property name="minimum">
             <number>1</number>
@@ -290,9 +329,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
             <bool>true</bool>
            </property>
            <property name="styleSheet">
-            <string notr="true">border :1.5px solid;
-background-color: rgb(255, 255, 255);
-font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+            <string notr="true"/>
            </property>
            <property name="minimum">
             <number>1</number>
@@ -335,7 +372,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
             <string/>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgb(221, 239, 255);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>How long do you want to run the simulation?</string>
@@ -356,8 +393,7 @@ font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgb(221, 239, 255);
-color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>weeks</string>
@@ -374,8 +410,7 @@ color: rgb(0, 0, 0);</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgb(221, 239, 255);
-color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>working days/week</string>
@@ -392,8 +427,7 @@ color: rgb(0, 0, 0);</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgb(221, 239, 255);
-color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>shifts/day</string>
@@ -410,8 +444,7 @@ color: rgb(0, 0, 0);</string>
             </font>
            </property>
            <property name="styleSheet">
-            <string notr="true">background-color: rgb(221, 239, 255);
-color: rgb(0, 0, 0);</string>
+            <string notr="true"/>
            </property>
            <property name="text">
             <string>hours/shift</string>
@@ -431,14 +464,10 @@ color: rgb(0, 0, 0);</string>
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(221, 239, 255);
-color: rgb(0, 135, 99);
-</string>
+          <string notr="true">color: rgb(0, 85, 255);</string>
          </property>
          <property name="text">
-          <string>User Input</string>
+          <string>Process Model Simulation User Input </string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
@@ -461,161 +490,44 @@ color: rgb(0, 135, 99);
       </layout>
      </widget>
     </item>
-    <item row="2" column="1">
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <item>
-       <spacer name="verticalSpacer">
-        <property name="orientation">
-         <enum>Qt::Vertical</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>20</width>
-          <height>118</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_4">
-        <item>
-         <spacer name="horizontalSpacer_3">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>138</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
-         <widget class="QPushButton" name="exit_btn">
-          <property name="minimumSize">
-           <size>
-            <width>200</width>
-            <height>30</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <family>Arial</family>
-            <pointsize>12</pointsize>
-            <weight>9</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-font: 75 12pt &quot;Arial&quot;;
-border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(0, 115, 173);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>Exit</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_2">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeType">
-           <enum>QSizePolicy::Preferred</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>68</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-        <item>
-         <widget class="QPushButton" name="run_btn">
-          <property name="minimumSize">
-           <size>
-            <width>200</width>
-            <height>30</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <family>Arial</family>
-            <pointsize>12</pointsize>
-            <weight>9</weight>
-            <italic>false</italic>
-            <bold>false</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">color: rgb(255, 255, 255);
-font: 75 12pt &quot;Arial&quot;;
-border :0px solid;
-border-color: rgb(255, 255, 255);
-background-color: rgb(0, 115, 173);
-border-radius: 5px;</string>
-          </property>
-          <property name="text">
-           <string>Run</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <spacer name="horizontalSpacer_4">
-          <property name="orientation">
-           <enum>Qt::Horizontal</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>248</width>
-            <height>20</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-    <item row="3" column="1">
-     <spacer name="horizontalSpacer_6">
+    <item row="0" column="2" rowspan="2">
+     <spacer name="verticalSpacer_3">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
-        <width>40</width>
-        <height>20</height>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" rowspan="2">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
        </size>
       </property>
      </spacer>
     </item>
    </layout>
    <zorder>frame_2</zorder>
-   <zorder>run_btn</zorder>
-   <zorder>exit_btn</zorder>
-   <zorder>horizontalSpacer_2</zorder>
-   <zorder>horizontalSpacer_3</zorder>
-   <zorder>horizontalSpacer_4</zorder>
-   <zorder>verticalSpacer</zorder>
    <zorder>verticalSpacer_2</zorder>
    <zorder>verticalSpacer_3</zorder>
-   <zorder>horizontalSpacer_6</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>989</width>
-     <height>26</height>
+     <width>876</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
