@@ -1,4 +1,4 @@
-from customized_HACO_parallel import HACO
+from HACO_parallel import HACO
 from process_model import prepare_process_model_data, SimTimeData, Warehouse_simulation
 import warnings
 warnings.filterwarnings("ignore")
