@@ -41,6 +41,6 @@ You agree your contributions are submitted under the GPL3 license. You represent
 
 Authors
 -----
-01. Md Mamunur Rahman (mdmamunur.rahman@inl.gov)
+01. Md Mamunur Rahman (rahmanmd@uwplatt.edu)
 02. Damon S. Hartley (damon.hartley@inl.gov)
 03. Ruby Thuy Nguyen (ruby.nguyen@inl.gov)
