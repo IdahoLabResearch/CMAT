@@ -7,7 +7,7 @@ from joblib import Parallel, delayed
 import multiprocessing as mp
 
 num_cores = mp.cpu_count()
-print(f'Number of cores in the system: {num_cores}')
+# print(f'Number of cores in the system: {num_cores}')
 
 
 def step_size(max_step, min_step, max_iteration, current_iteration):
