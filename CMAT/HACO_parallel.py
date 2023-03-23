@@ -1,4 +1,4 @@
-# this program will run the optimization algorithm prallely in all the available CPU cores to minimize computation time.
+# this program will run the optimization algorithm prallelly in all the available CPU cores to minimize computation time.
 import numpy as np
 import matplotlib.pyplot as plt
 import time
