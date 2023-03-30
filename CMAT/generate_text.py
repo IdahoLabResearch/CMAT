@@ -1,10 +1,3 @@
-
-"""
-@author: Mamunur Rahman
-"""
-
-
-# generic vehicle class
 class generateText:
 
     def __init__(self):
