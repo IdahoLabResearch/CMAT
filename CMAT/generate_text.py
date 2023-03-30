@@ -1,10 +1,3 @@
-
-"""
-@author: Mamunur Rahman
-"""
-
-
-# generic vehicle class
 class generateText:
 
     def __init__(self):
@@ -683,11 +676,11 @@ The model consists of three sub-models which operate from user-inputted process 
 3. Economic Model – provides economic analysis of a given e-waste recycling process based on prices and operating costs.
 
 '''
-        self.user_manual = 'Download the user manual from the below link:'
+        self.user_manual = 'Download the user manual from the below link: https://github.com/IdahoLabResearch/CMAT'
         
         self.contact_info = '''Contact information of the authors:
             
-01. Md Mamunur Rahman (mdmamunur.rahman@inl.gov)
+01. Md Mamunur Rahman (mamunur.ipe05@gmail.com)
 02. Damon S. Hartley (damon.hartley@inl.gov)
 03. Ruby Thuy Nguyen (ruby.nguyen@inl.gov)            
 

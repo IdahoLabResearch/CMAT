@@ -41,8 +41,14 @@ color: #3A5795;
     </property>
     <item row="0" column="1">
      <layout class="QVBoxLayout" name="verticalLayout_2">
+      <property name="spacing">
+       <number>10</number>
+      </property>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <property name="spacing">
+         <number>20</number>
+        </property>
         <item>
          <widget class="QTextEdit" name="textEdit_3">
           <property name="styleSheet">
@@ -103,10 +109,17 @@ p, li { white-space: pre-wrap; }
        </layout>
       </item>
       <item>
-       <layout class="QHBoxLayout" name="horizontalLayout_2"/>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <property name="spacing">
+         <number>20</number>
+        </property>
+       </layout>
       </item>
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <property name="spacing">
+         <number>20</number>
+        </property>
         <item>
          <widget class="QPushButton" name="transportation_model_btn">
           <property name="minimumSize">
