@@ -1,3 +1,10 @@
+> [!WARNING]
+> **This repository has been archived and is no longer maintained.**
+> The code is provided for historical reference and may contain unpatched
+> or unknown vulnerabilities. It should not be used in production systems.
+
+---
+
 # CMAT (Comprehensive Manufacturing Assessment Tool)
 The CMAT software provides the user with a fully customizable decision support framework that analyzes the optimal supply chain configurations for a given industrial electronic waste (e-waste) recycling and refurbishment process. The software optimizes the logistics operations, helps to identify the best recycling process configuration, and generates valuable insights regarding the economic performance of different categories of e-waste. The ultimate purpose of the model is to provide insights on questions pertinent to the e-waste recycling industry including how to increase efficiency and reduce costs, energy consumption, and greenhouse gas emissions.
 
